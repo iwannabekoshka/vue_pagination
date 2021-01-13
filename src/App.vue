@@ -95,10 +95,21 @@
 
 		list-style: none;
 	}
+
 	.c-sliding-pagination__list-element {
 		margin-right: 1rem;
+		background-color: cornflowerblue;
+	}
+	.c-sliding-pagination__list-element * {
+		display: block;
+		padding: 1rem;
+		width: 100%;
+		height: 100%;
+
+		color: white;
+		text-decoration: none;
 	}
 	.c-sliding-pagination__list-element--active {
-		background-color: red;
+		background-color: #4a6faf;
 	}
 </style>
